@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.fade {
+  border: 5px solid #FFF;
+  width: 600px;
+  margin: auto;
+  background-color: white; }
+
+.nav {
+  background-color: #333; }
+
+.links {
+  float: right; }
+
+.main {
+  color: white;
+  padding: 14px 16px; }
+
+.gallery {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  width: 100%;
+  text-align: center; }
+
+.img {
+  margin: 5px;
+  width: 20%;
+  height: 10%;
+  border: 5px solid #FFF; }
+
+.main:hover {
+  color: #62D5F4; }
+
+.img:hover {
+  transform: scale(1.1); }
+
+#img-me {
+  border: 5px solid #FFF;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+#p {
+  text-align: center;
+  padding-top: 3%;
+  padding-left: 22%;
+  padding-right: 22%; }
+
+h1 {
+  text-align: center;
+  padding: 30px; }
+
+p {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px; }
+
+footer {
+  background-color: #333;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin-right: auto;
+  margin-left: auto; }
+
+footer:hover {
+  color: #62D5F4; }
+
+body {
+  background-color: #e0e0e0; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+li a:hover:not(.active) {
+  background-color: #62D5F4; }
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+  .fade {
+    width: 80%;
+    height: 80%; }
+
+  .main {
+    font-size: 0.9em; }
+
+  .img {
+    margin: 5px;
+    width: 70%;
+    height: 100%;
+    border: 5px solid #FFF; }
+
+  .gallery {
+    padding-bottom: 0;
+    padding-top: 0; }
+
+  .img-1 {
+    width: 100%; }
+
+  footer {
+    padding: 8px;
+    font-size: 0.7em;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+
+  ul {
+    font-size: 0.7em; }
+
+  h1 {
+    font-size: 1.2em; }
+
+  p {
+    font-size: 0.7em;
+    padding-top: 0;
+    padding-bottom: 15px; }
+
+  #img-me {
+    width: 80%; } }
+
+/*# sourceMappingURL=style.css.map */
